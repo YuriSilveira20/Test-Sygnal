@@ -1,0 +1,10 @@
+<p><strong><%= Rails.env %> = <%= translate_env%></strong></p>
+<h1>Welcome <%= @name %> </h1>
+<p></p>
+<h2><%= name_aplication %></h2>
+<p><strong>Date: </strong> <%= date_br(Date.today) %></p>
+<ul>
+    <li>
+    <%= link_to "Cadastro de Moedas", coins_path %>
+    </li>
+</ul>
